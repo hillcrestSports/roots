@@ -1,0 +1,25 @@
+<a href="https://www.hillcrestsports.com/rentals/" title="rentals" id="rentals-link" style="
+    
+    background-color: #a4e542;
+    position: fixed;
+    z-index: 9999;
+    text-transform: uppercase;
+    left: -45px;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    top: 20%;
+    transform: rotate(-90deg);
+    padding: 10px;
+
+">
+    Rentals
+</a>
+
+<div class="body {{#if template_file '===' 'pages/home'}}home{{/if}}" data-currency-code="{{currency_selector.active_currency_code}}">
+    {{#block "hero"}} {{/block}}
+    {{#block "page"}} {{/block}}
+    {{#block "hero-bottom"}} {{/block}}
+    {{> components/common/modal}}
+    {{> components/common/alert-modal}}
+</div>

@@ -1,0 +1,3 @@
+if there's a file in this directory, say 'k2board2021.jpg', reference it in the theme docs with the following IMG tag:
+
+<img src="{{cdn 'assets/img/hillcrest/k2board2021.jpg'}}">

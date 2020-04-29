@@ -15,7 +15,10 @@
     }
 
     body {
-        padding-top: $header-height; // 2
+
+        //REPLACING <<< padding-top: $header-height; // 2 >>> WITH BELOW
+        padding-top: 0; // 2
+
         @include breakpoint("medium") {
             padding-top: 0;
         }
